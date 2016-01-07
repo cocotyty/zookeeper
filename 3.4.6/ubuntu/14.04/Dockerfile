@@ -5,7 +5,7 @@ apt-get install -y curl openjdk-7-jre-headless python
 
 # https://www.apache.org/mirrors/dist.html
 RUN curl -fL http://apache.01link.hk/zookeeper/zookeeper-3.4.7/zookeeper-3.4.7.tar.gz | tar xzf - -C /opt && \
-mv /opt/zookeeper-3.4.6 /opt/zookeeper
+mv /opt/zookeeper-3.4.7 /opt/zookeeper
 
 VOLUME /tmp/zookeeper
 
